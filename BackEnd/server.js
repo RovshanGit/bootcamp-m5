@@ -159,7 +159,5 @@ app.delete("/delete/:id", (req, res) => {
     }
   );
 });
-app.get("/salam", (req,res)=>{
-  res.json({salam:"Salam"})
-})
+
 app.listen(5000, () => console.log("Joined to the server on port 5000!"));
